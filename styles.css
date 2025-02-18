@@ -125,3 +125,33 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+.logo {
+    width: 200px; /* Define um tamanho fixo */
+    height: auto; /* Mantém a proporção */
+    display: block; /* Evita espaços extras */
+    margin: 10px auto; /* Centraliza a imagem */
+}
+
+img {
+    margin-top: 200px; /* Espaço acima */
+    margin-bottom: 200px; /* Espaço abaixo */
+}
+img {
+    width: 100%;  /* Ajusta à largura do contêiner */
+    height: auto;  /* Mantém a proporção */
+    max-width: 600px; /* Define um limite máximo */
+    display: block;  /* Remove espaçamentos extras */
+    margin: auto;  /* Centraliza */
+}
+
+img {
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+img {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+img {
+    filter: brightness(90%) contrast(110%); /* Ajusta brilho e contraste */
+}
